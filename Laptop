@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html Lang="en">
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content= "width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:400,500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css"> 
+    <title>Responsive Webpage By Roshi</title>
+</head>
+<body>
+
+    <header>
+        <!--Top Nav-->
+        <div class="logo-container">
+            <img src= "img/logo.png" alt="logo">
+        </div>
+        <nav>
+            <ul class="nav-links">
+                <li ><a class="nav-link" href="#">Specs</a></li>
+                <li ><a class="nav-link" href="#">Products</a></li>
+                <li ><a class="nav-link" href="#">Contact</a></li>
+            </ul>
+
+        </nav>
+        <div class="cart">
+            <img src="img/cart.svg" alt="cart"/>
+        </div>
+    </header>
+        <!--Main Section-->
+    <main>
+        <!--Added Main Section-->
+        <section class="presentation">
+            <!--Added Child "introduction-->
+            <div class="Introduction">
+                <!--Added Child intro-text-->
+                <div class="intro-text">
+                    <h1>Laptops Buy or Face the cosequences</h1>
+                    <p>The new 56" Nividia GTX i7 laptop with built in bluetooth 
+
+                    </p>
+                </div>
+                <div class="cta"> <!--Button-->
+                    <button class="cta-select">56 Inch</button>
+                    <button class="cta-add">Add To Cart</button>
+                </div>
+                
+
+            </div>
+            <div class="cover">
+                <img src="img/matebook.png"
+                alt="matebook"/>
+            </div>
+        </section>
+<!--Added Arrows selector-->
+        <div class="laptop-select">
+            <img src="img/arrow-left.svg" alt="" srcset="">
+            <img src="img/dot.svg" alt="">
+            <img src= "img/dot-full.svg">
+            <img src= "img/dot-full.svg">
+            <img src="img/arrow-right.svg" alt="">
+
+        </div>
+        <img class = "small-circle"src="img/small-eclipse.svg">
+        <img class = "medium-circle"src="img/mid-eclipse.svg">
+        <img class = "big-circle"src="img/big-eclipse.svg">
+    </main>
+
+
+</body>
+</html>
